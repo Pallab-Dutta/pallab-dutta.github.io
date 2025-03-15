@@ -1,19 +1,11 @@
 # Build settings
-theme: "minimal-mistakes-jekyll"
-minimal_mistakes_skin: "contrast"
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+theme: minima
 
 #remote_theme: pages-themes/minimal@v0.2.0
 title: "Pallab Dutta"
 description: "Personal website of Pallab Dutta"
 
-logo: PallabDutta_Photo.jpg
+#logo: PallabDutta_Photo.jpg
 
 navigation:
   - title: "Home"
