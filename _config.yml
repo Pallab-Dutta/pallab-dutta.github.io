@@ -1,18 +1,21 @@
 # Build settings
-theme: minima
+#theme: minima
 
-#remote_theme: pages-themes/minimal@v0.2.0
-#title: "Pallab Dutta"
-#description: "Personal website of Pallab Dutta"
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+ - jekyll-remote-theme
 
-#logo: PallabDutta_Photo.jpg
+title: "Pallab Dutta"
+description: "Personal website of Pallab Dutta"
 
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Research Blogs"
-    url: "/research-blogs"
-  - title: "Publications"
-    url: "/publications"
+logo: PallabDutta_Photo.jpg
 
-footer: false
+#navigation:
+#  - title: "Home"
+#    url: "/"
+#  - title: "Research Blogs"
+#    url: "/research-blogs"
+#  - title: "Publications"
+#    url: "/publications"
+
+#footer: false
