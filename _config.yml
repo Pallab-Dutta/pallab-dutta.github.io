@@ -1,6 +1,5 @@
 # Build settings
-#theme: jekyll-theme-minimal
-theme: jekyll-theme-minima
+theme: jekyll-theme-minimal
 
 #remote_theme: pages-themes/minimal@v0.2.0
 title: "Pallab Dutta"
