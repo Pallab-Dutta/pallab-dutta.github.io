@@ -1,6 +1,13 @@
 # Build settings
-theme: "minima"
-#minimal_mistakes_skin: "contrast"
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "contrast"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
 #remote_theme: pages-themes/minimal@v0.2.0
 title: "Pallab Dutta"
