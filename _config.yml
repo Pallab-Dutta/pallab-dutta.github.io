@@ -13,6 +13,6 @@ navigation:
   - title: "Home"
     url: "/README.md"
   - title: "Research Blogs"
-    url: "/research-blogs"
+    url: "/research-blogs.md"
   - title: "Publications"
-    url: "/publications"
+    url: "/publications.md"
