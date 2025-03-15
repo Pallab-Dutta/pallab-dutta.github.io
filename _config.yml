@@ -1,6 +1,6 @@
 # Build settings
-theme: "minimal-mistakes-jekyll"
-minimal_mistakes_skin: "contrast"
+theme: "minima"
+#minimal_mistakes_skin: "contrast"
 
 #remote_theme: pages-themes/minimal@v0.2.0
 title: "Pallab Dutta"
@@ -8,7 +8,7 @@ description: "Personal website of Pallab Dutta"
 
 logo: PallabDutta_Photo.jpg
 
-main:
+navigation:
   - title: "Home"
     url: "/"
   - title: "Research Blogs"
