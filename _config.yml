@@ -1,19 +1,18 @@
-#remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/minimal@v0.2.0
 title: "Pallab Dutta"
 description: "Personal website of Pallab Dutta"
-theme: minimal
 
 logo: PallabDutta_Photo.jpg
-#plugins:
-#  - jekyll-remote-theme # add this line to the plugins list if you already have one
-
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+#plugins:
+#  - jekyll-feed
+#  - jekyll-seo-tag
   
 navigation:
   - title: "Home"
-    url: "/README"
+    url: "/README.md"
   - title: "Research Blogs"
     url: "/research-blogs"
   - title: "Publications"
