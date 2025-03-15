@@ -1,7 +1,7 @@
 # Build settings
-theme: jekyll-theme-minimal
-plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+#theme: jekyll-theme-minimal
+#plugins:
+#  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 #remote_theme: pages-themes/minimal@v0.2.0
 title: "Pallab Dutta"
@@ -11,8 +11,8 @@ logo: PallabDutta_Photo.jpg
 
 navigation:
   - title: "Home"
-    url: "/README.md"
+    url: "/"
   - title: "Research Blogs"
-    url: "/research-blogs.md"
+    url: "/research-blogs"
   - title: "Publications"
-    url: "/publications.md"
+    url: "/publications"
