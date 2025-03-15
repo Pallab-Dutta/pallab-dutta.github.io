@@ -10,6 +10,9 @@ description: "Personal website of Pallab Dutta"
 
 logo: PallabDutta_Photo.jpg
 
+sidebar:
+  nav: "docs"
+
 #navigation:
 #  - title: "Home"
 #    url: "/"
