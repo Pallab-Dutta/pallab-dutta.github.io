@@ -4,12 +4,12 @@ description: "Personal website of Pallab Dutta"
 theme: minimal
 
 logo: PallabDutta_Photo.jpg
-plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
-
 #plugins:
-#  - jekyll-feed
-#  - jekyll-seo-tag
+#  - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
   
 navigation:
   - title: "Home"
