@@ -2,9 +2,9 @@
 theme: theme: jekyll-theme-minimal
 
 # remote-theme: pages-themes/midnight@v0.2.0
-plugins:
-- jekyll-feed
-- jekyll-remote-theme
+#plugins:
+#- jekyll-feed
+#- jekyll-remote-theme
 
 #remote_theme: pages-themes/minimal@v0.2.0
 title: "Pallab Dutta"
