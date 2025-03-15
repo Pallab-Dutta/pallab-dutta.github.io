@@ -7,7 +7,7 @@ description: "Personal website of Pallab Dutta"
 
 logo: PallabDutta_Photo.jpg
 
-navigation:
+main:
   - title: "Home"
     url: "/"
   - title: "Research Blogs"
