@@ -1,7 +1,7 @@
 #remote_theme: pages-themes/minimal@v0.2.0
 title: "Pallab Dutta"
 description: "Personal website of Pallab Dutta"
-theme: pages-themes/minimal@v0.2.0
+theme: minimal
 
 logo: PallabDutta_Photo.jpg
 plugins:
