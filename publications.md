@@ -6,7 +6,7 @@ title: Publications
 Publications
 
 <style>
-  .footer {
+  .site-footer {
     display: none;
   }
 </style>
