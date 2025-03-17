@@ -6,7 +6,7 @@ title: Research Blogs
 Research Blogs
 
 <style>
-  .footer {
+  .site-footer {
     display: none;
   }
 </style>
