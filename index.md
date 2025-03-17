@@ -6,7 +6,7 @@ title: Home
 # Welcome to Pallab's home
 
 <style>
-  .footer {
+  .site-footer {
     display: none;
   }
 </style>
