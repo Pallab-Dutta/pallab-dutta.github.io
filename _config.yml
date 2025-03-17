@@ -1,5 +1,5 @@
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: minima
 
 #remote_theme: pages-themes/minimal@v0.2.0
 #plugins:
@@ -10,12 +10,12 @@ description: "Personal website of Pallab Dutta"
 
 logo: PallabDutta_Photo.jpg
 
-#navigation:
-#  - title: "Home"
-#    url: "/"
-#  - title: "Research Blogs"
-#    url: "/research-blogs"
-#  - title: "Publications"
-#    url: "/publications"
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Research Blogs"
+    url: "/research-blogs"
+  - title: "Publications"
+    url: "/publications"
 
 #footer: false
