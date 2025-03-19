@@ -17,5 +17,11 @@ navigation:
     url: "/research-blogs"
   - title: "Publications"
     url: "/publications"
+  - title: "Unsolved Puzzles"
+    url: "/puzzles"
+  - title: "Personal Projects"
+    url: "/projects"
+  - title: "Arts"
+    url: "/arts"
 
 #footer: false
