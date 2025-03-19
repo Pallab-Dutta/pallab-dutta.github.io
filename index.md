@@ -8,7 +8,7 @@ title: Home
     <div>
         <p style="text-align: justify;">
         🙏 Namaskar, this is Pallab Dutta! <br>
-        👀 I’m a research scholar at IISER-Kolkata, exploring the fusion of computational chemistry and AI. 
+        👀 I’m a research scholar at IISER-Kolkata, exploring the interface of computational chemistry and AI. 
         </p>
     </div>
 </div>
