@@ -18,17 +18,11 @@ description: "Personal website of Pallab Dutta"
 # logo: PallabDutta_Photo.jpg
 
 header_pages:
-  - title: "Home"
-    url: "/"
-  - title: "Research Blogs"
-    url: "/research-blogs"
-  - title: "Publications"
-    url: "/publications"
-  - title: "Unsolved Puzzles"
-    url: "/puzzles"
-  - title: "Personal Projects"
-    url: "/projects"
-  - title: "Arts"
-    url: "/arts"
+  - index.md
+  - research-blogs.md
+  - publications.md
+  - puzzles.md
+  - projects.md
+  - arts.md
 
 #footer: false
