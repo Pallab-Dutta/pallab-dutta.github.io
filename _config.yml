@@ -1,6 +1,13 @@
 # Build settings
 theme: minima
 
+plugins:
+  - jekyll-relative-links # converts links to markdown files to their html counterparts
+
+relative_links:
+  enabled: true
+  collections: true
+
 #remote_theme: pages-themes/minimal@v0.2.0
 #plugins:
 # - jekyll-remote-theme
@@ -10,7 +17,7 @@ description: "Personal website of Pallab Dutta"
 
 # logo: PallabDutta_Photo.jpg
 
-navigation:
+header_pages:
   - title: "Home"
     url: "/"
   - title: "Research Blogs"
