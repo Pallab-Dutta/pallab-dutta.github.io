@@ -8,7 +8,7 @@ theme: minima
 title: "Pallab Dutta"
 description: "Personal website of Pallab Dutta"
 
-logo: PallabDutta_Photo.jpg
+# logo: PallabDutta_Photo.jpg
 
 navigation:
   - title: "Home"
