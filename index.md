@@ -12,7 +12,8 @@ title: Home
         </p>
     </div>
 </div>
-
+<br>
+<br>
 ---
 
 # Welcome to Pallab's home
