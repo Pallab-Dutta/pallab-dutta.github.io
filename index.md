@@ -23,6 +23,12 @@ Currently, I am a final year PhD student under Prof. Neelanjana Sengupta at IISE
 - Learning membrane surface topology as a function of the embedded peptide and its conformation. 
 - Solving the mystery of having structural conservation with sequence dissimilarities in Kinases and other enzymes, using explainable AI.  
 
+<br/>
+
+---
+
+<br/>
+
 I received my integrated Bs-Ms degree with a major in **Biological Sciences** and a minor in **Physical Sciences** from IISER Kolkata. In my Master's thesis, I worked on the estimation of kinetic barriers present in proline isomerization using statistical inference. Later, we applied this novel approach for efficient estimation of similar barriers present in the free energy surfaces of alanine-dipeptide and fluoroproline systems. In 2020, we published this effort in *J. Chem. Phys.*, in a special issue named *Machine Learning meets Chemical Physics* ( DOI: [https://doi.org/10.1063/5.0021910](https://doi.org/10.1063/5.0021910) ).
 
 <style>
