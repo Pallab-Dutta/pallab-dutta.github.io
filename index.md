@@ -19,8 +19,8 @@ title: Home
 <br/>
 
 Currently, I am a final year PhD student under Prof. Neelanjana Sengupta at IISER Kolkata. I am working at the interface of molecular simulations and machine learning to understand the dynamics of biomolecular systems in greater detail. Some of my current research topics are:
-- Estimation of kinetic barriers and learning transition states without directly sampling the transition event <sup>[[1](https://doi.org/10.1002/cphc.202200595),[2](https://doi.org/10.1016/j.bpj.2023.02.010)]</sup>.
-- Learning membrane surface topology as a function of the embedded peptide and its conformation <sup>[[3](https://doi.org/10.1063/5.0250082)]</sup>. 
+- Estimation of kinetic barriers and learning transition states without directly sampling the transition event [[1](https://doi.org/10.1002/cphc.202200595),[2](https://doi.org/10.1016/j.bpj.2023.02.010)].
+- Learning membrane surface topology as a function of the embedded peptide and its conformation [[3](https://doi.org/10.1063/5.0250082)]. 
 - Solving the mystery of having structural conservation with sequence dissimilarities in Kinases and other enzymes, using explainable AI.  
 
 <br/>
