@@ -16,7 +16,9 @@ title: Home
 
 ---
 
-I received my integrated Bs-Ms degree with a major in **Biological Sciences** and a minor in **Physical Sciences** from IISER Kolkata. In my Master's thesis, I worked on the estimation of kinetic barriers present in proline isomerization using statistical inference. Later, we applied this novel approach for efficient estimation of similar barriers present in the free energy surfaces of alanine-dipeptide and fluoroproline systems. In 2020, we published this effort in *J. Chem. Phys.*, in a special issue named *Machine Learning meets Chemical Physics*.
+<br/>
+
+I received my integrated Bs-Ms degree with a major in **Biological Sciences** and a minor in **Physical Sciences** from IISER Kolkata. In my Master's thesis, I worked on the estimation of kinetic barriers present in proline isomerization using statistical inference. Later, we applied this novel approach for efficient estimation of similar barriers present in the free energy surfaces of alanine-dipeptide and fluoroproline systems. In 2020, we published this effort in *J. Chem. Phys.*, in a special issue named *Machine Learning meets Chemical Physics* [DOI: https://doi.org/10.1063/5.0021910].
 
 <style>
   .site-footer {
