@@ -19,7 +19,7 @@ title: Home
         <div id="toggle-knob"></div>
     </div>
 </div>
-<style>
+<!--<style>
 .toggle-container {
     display: flex;
     justify-content: center;
@@ -43,6 +43,42 @@ title: Home
     position: absolute;
     top: 5px;
     left: 5px;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
+}
+
+</style>-->
+
+<style>
+    
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0;
+    width: 100%;
+}
+
+#toggle-track {
+    width: 90vw; /* 90% of screen width */
+    height: calc(90vw / 3); /* Height is 1/3 of width */
+    max-width: 400px; /* Prevents excessive size on large screens */
+    max-height: 133px; /* Corresponding max height */
+    background: url('/assets/SciMode.png') center/cover;
+    border-radius: 50px;
+    position: relative;
+    transition: background 0.5s ease-in-out;
+}
+
+#toggle-knob {
+    width: calc(90vw / 3.5); /* Adjusted knob size relative to track */
+    height: calc(90vw / 3.5); /* Keep it a circle */
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    background: url('/assets/face_on.jpg') center/cover;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%); /* Center vertically */
     transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
 }
 
