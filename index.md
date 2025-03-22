@@ -29,7 +29,7 @@ title: Home
 #toggle-track {
     width: 120px;
     height: 50px;
-    background: url('/assets/science_bg.png') center/cover;
+    background: url('/assets/SciMode.png') center/cover;
     border-radius: 25px;
     position: relative;
     transition: background 0.5s ease-in-out;
@@ -39,7 +39,7 @@ title: Home
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: url('/assets/face_off.png') center/cover;
+    background: url('/assets/face_on.png') center/cover;
     position: absolute;
     top: 2.5px;
     left: 3px;
