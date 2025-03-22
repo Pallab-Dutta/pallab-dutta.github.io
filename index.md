@@ -27,7 +27,7 @@ title: Home
 }
 
 #toggle-track {
-    width: 240px;
+    width: 400px;
     height: 100px;
     background: url('/assets/SciMode.png') center/cover;
     border-radius: 50px;
