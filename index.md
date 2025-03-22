@@ -23,26 +23,26 @@ title: Home
 .toggle-container {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 20px;
 }
 
 #toggle-track {
-    width: 120px;
-    height: 50px;
+    width: 240px;
+    height: 100px;
     background: url('/assets/SciMode.png') center/cover;
-    border-radius: 25px;
+    border-radius: 50px;
     position: relative;
     transition: background 0.5s ease-in-out;
 }
 
 #toggle-knob {
-    width: 45px;
-    height: 45px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     background: url('/assets/face_on.png') center/cover;
     position: absolute;
-    top: 2.5px;
-    left: 3px;
+    top: 5px;
+    left: 6px;
     transition: transform 0.5s ease-in-out, background 0.3s ease-in-out;
 }
 
