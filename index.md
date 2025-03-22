@@ -42,7 +42,7 @@ title: Home
     background: url('/assets/face_on.jpg') center/cover;
     position: absolute;
     top: 5px;
-    left: 6px;
+    left: 5px;
     transition: transform 0.5s ease-in-out, background 0.3s ease-in-out;
 }
 
