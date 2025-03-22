@@ -60,7 +60,7 @@ title: Home
 .toggle-container {
     display: flex;
     justify-content: center;
-    margin: 5vh 0;
+    /*margin: 5vh 0;*/
     width: 100%;
 }
 
