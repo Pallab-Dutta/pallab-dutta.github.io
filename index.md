@@ -9,6 +9,35 @@ title: Home
     </div>
 </div>
 
+<style>
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#toggle-track {
+    width: 120px;
+    height: 50px;
+    background: url('/assets/science_bg.png') center/cover;
+    border-radius: 25px;
+    position: relative;
+    transition: background 0.5s ease-in-out;
+}
+
+#toggle-knob {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: url('/assets/face_off.png') center/cover;
+    position: absolute;
+    top: 2.5px;
+    left: 3px;
+    transition: transform 0.5s ease-in-out, background 0.3s ease-in-out;
+}
+</style>
+
+
 <script src="/assets/toggle.js"></script>
 
 <!-- <div style="display: flex; align-items: center;">
