@@ -43,7 +43,7 @@ title: Home
     position: absolute;
     top: 5px;
     left: 5px;
-    transition: background 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
 }
 
 </style>
