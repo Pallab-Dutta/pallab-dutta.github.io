@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const knob = document.getElementById("toggle-knob");
     const track = document.getElementById("toggle-track");
-    let isScience = false;
+    let isScience = true;
 
     knob.addEventListener("click", function () {
         isScience = !isScience;
