@@ -14,6 +14,14 @@ title: Home
 </div>
 <br/>
 
+<div class="toggle-container">
+    <div id="toggle-track">
+        <div id="science-side">🔬</div>
+        <div id="art-side">🎨</div>
+        <div id="toggle-knob"></div>
+    </div>
+</div>
+
 ---
 
 <br/>
