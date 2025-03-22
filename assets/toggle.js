@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                          : `translateY(-50%) translateX(${moveDistance}px)`;
 
         knob.style.backgroundImage = isScience ? "url('/assets/face_on.jpg')" 
-                                               : "url('/assets/face_off.jpg')";
+                                               : "url('/assets/face_off.png')";
 
         track.style.backgroundImage = isScience ? "url('/assets/SciMode.png')" 
                                                 : "url('/assets/ArtMode.png')";
