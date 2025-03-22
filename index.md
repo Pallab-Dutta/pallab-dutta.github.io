@@ -21,7 +21,7 @@ title: Home
         <div id="toggle-knob"></div>
     </div>
 </div>
-
+<script src="/assets/toggle.js"></script>
 ---
 
 <br/>
