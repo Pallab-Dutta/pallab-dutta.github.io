@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         isScience = !isScience;
 
         knob.style.transform = isScience ? "translateX(0)" : "translateX(70px)";
-        knob.style.backgroundImage = isScience ? "url('/assets/face_off.png')" : "url('/assets/face_on.png')";
+        knob.style.backgroundImage = isScience ? "url('/assets/face_on.jpg')" : "url('/assets/face_on.jpg')";
         track.style.backgroundImage = isScience ? "url('/assets/science_bg.png')" : "url('/assets/art_bg.png')";
     });
 });
