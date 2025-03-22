@@ -19,7 +19,10 @@ title: Home
         <div id="toggle-knob"></div>
     </div>
 </div>
-<!--<style>
+
+<!--
+<style>
+
 .toggle-container {
     display: flex;
     justify-content: center;
@@ -46,7 +49,8 @@ title: Home
     transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
 }
 
-</style>-->
+</style>
+-->
 
 <style>
     
