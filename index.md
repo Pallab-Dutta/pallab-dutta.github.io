@@ -67,8 +67,8 @@ title: Home
 #toggle-track {
     width: 90vw; /* 90% of screen width */
     height: calc(90vw / 3); /* Height is 1/3 of width */
-    max-width: 400px; /* Prevents excessive size on large screens */
-    max-height: 133px; /* Corresponding max height */
+    max-width: 450px; /* Prevents excessive size on large screens */
+    max-height: 150px; /* Corresponding max height */
     background: url('/assets/SciMode.png') center/cover;
     border-radius: calc(90vw / 6); /* Half of height to ensure perfect roundness */
     position: relative;
