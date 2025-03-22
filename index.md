@@ -39,7 +39,7 @@ title: Home
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background: url('/assets/face_on.png') center/cover;
+    background: url('/assets/face_on.jpg') center/cover;
     position: absolute;
     top: 5px;
     left: 6px;
