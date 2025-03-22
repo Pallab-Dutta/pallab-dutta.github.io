@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     track.addEventListener("click", function () {
         isScience = !isScience;
 
-        knob.style.transform = isScience ? "translateX(0)" : "translateX(300px)";
+        knob.style.transform = isScience ? "translateX(0)" : "translateX(200px)";
         knob.style.backgroundImage = isScience ? "url('/assets/face_on.jpg')" : "url('/assets/face_on.jpg')";
         track.style.backgroundImage = isScience ? "url('/assets/SciMode.png')" : "url('/assets/ArtMode.png')";
     });
