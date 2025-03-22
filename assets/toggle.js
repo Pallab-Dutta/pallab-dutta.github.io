@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const track = document.getElementById("toggle-track");
     let isScience = true;
 
-    knob.addEventListener("click", function () {
+    track.addEventListener("click", function () {
         isScience = !isScience;
 
         knob.style.transform = isScience ? "translateX(0)" : "translateX(140px)";
