@@ -5,9 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     knob.addEventListener("click", function () {
         isScience = !isScience;
-
-        knob.style.transform = isScience ? "translateX(0)" : "translateX(70px)";
+        knob.style.transform = isScience ? "translateX(0)" : "translateX(50px)";
         knob.style.backgroundImage = isScience ? "url('/assets/face_on.jpg')" : "url('/assets/face_on.jpg')";
-        track.style.backgroundImage = isScience ? "url('/assets/science_bg.png')" : "url('/assets/art_bg.png')";
     });
 });
