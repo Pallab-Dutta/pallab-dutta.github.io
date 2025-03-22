@@ -16,8 +16,6 @@ title: Home
 
 <div class="toggle-container">
     <div id="toggle-track">
-        <div id="science-side">🔬</div>
-        <div id="art-side">🎨</div>
         <div id="toggle-knob"></div>
     </div>
 </div>
@@ -29,16 +27,12 @@ title: Home
 }
 
 #toggle-track {
-    width: 100px;
+    width: 120px;
     height: 50px;
-    background: linear-gradient(to right, #0044cc 50%, #ff6600 50%);
+    background: url('/assets/science_bg.png') center/cover;
     border-radius: 25px;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10px;
-    transition: background 0.3s ease-in-out;
+    transition: background 0.5s ease-in-out;
 }
 
 #toggle-knob {
@@ -47,15 +41,13 @@ title: Home
     border-radius: 50%;
     background: url('/assets/face_off.png') center/cover;
     position: absolute;
-    left: 2px;
-    transition: transform 0.3s ease-in-out;
-}
-
-#science-side, #art-side {
-    font-size: 20px;
+    top: 2.5px;
+    left: 3px;
+    transition: transform 0.5s ease-in-out, background 0.3s ease-in-out;
 }
 
 </style>
+
 <script src="/assets/toggle.js"></script>
 ---
 
