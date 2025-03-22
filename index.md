@@ -73,8 +73,8 @@ title: Home
 }
 
 #toggle-knob {
-    width: calc(90vw / 3.4); /* Adjusted knob size relative to track */
-    height: calc(90vw / 3.4); /* Keep it a circle */
+    width: calc(90vw / 3.0); /* Adjusted knob size relative to track */
+    height: calc(90vw / 3.0); /* Keep it a circle */
     max-width: 100px;
     max-height: 100px;
     border-radius: 50%;
