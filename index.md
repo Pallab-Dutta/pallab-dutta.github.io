@@ -76,8 +76,8 @@ title: Home
 }
 
 #toggle-knob {
-    width: calc(90vw / 3.7); /* Reduce size slightly */
-    height: calc(90vw / 3.7); /* Keep it a circle */
+    width: calc(90vw / 3.5); /* Reduce size slightly */
+    height: calc(90vw / 3.5); /* Keep it a circle */
     max-width: 180px; /* Adjust max width */
     max-height: 180px;
     border-radius: 50%;
