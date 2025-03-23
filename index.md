@@ -87,6 +87,7 @@ title: Home
     max-height: 200px; /* Corresponding max height */
     background: url('/assets/SciMode.png') center/cover;
     border-radius: calc(90vw / 6); /* Half of height to ensure perfect roundness */
+    border: 4px solid black;
     position: relative;
     transition: background 0.5s ease-in-out;
 }
