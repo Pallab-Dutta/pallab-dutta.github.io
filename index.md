@@ -76,10 +76,10 @@ title: Home
 }
 
 #toggle-knob {
-    width: calc(90vw / 3.35); /* Adjusted knob size relative to track */
-    height: calc(90vw / 3.35); /* Keep it a circle */
-    max-width: 200px;
-    max-height: 200px;
+    width: calc(90vw / 3.7); /* Reduce size slightly */
+    height: calc(90vw / 3.7); /* Keep it a circle */
+    max-width: 180px; /* Adjust max width */
+    max-height: 180px;
     border-radius: 50%;
     background: url('/assets/face_on.jpg') center/cover;
     position: absolute;
