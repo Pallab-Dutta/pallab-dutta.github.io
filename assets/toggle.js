@@ -3,6 +3,18 @@ document.addEventListener("DOMContentLoaded", function () {
     const track = document.getElementById("toggle-track");
     let isScience = true;
 
+    const preloadImages = [
+        "/assets/face_on.jpg",
+        "/assets/face_off.jpg",
+        "/assets/SciMode.png",
+        "/assets/ArtMode.png"
+    ];
+
+    preloadImages.forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+
     track.addEventListener("click", function () {
         isScience = !isScience;
 
