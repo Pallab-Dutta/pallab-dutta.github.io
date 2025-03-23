@@ -101,6 +101,7 @@ title: Home
     position: absolute;
     top: 50%;
     left: 2%;
+    box-shadow: inset 0 0 0 3px black;
     transform: translateY(-50%); /* Center vertically */
     transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
 }
