@@ -31,5 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         track.style.backgroundImage = isScience ? "url('/assets/SciMode.png')" 
                                                 : "url('/assets/ArtMode.png')";
+
+        knob.style.boxShadow = isScience ? "inset 0 0 0 3px black" : "inset 0 0 0 3px white";
     });
 });
