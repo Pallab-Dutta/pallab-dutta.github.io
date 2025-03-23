@@ -3,6 +3,22 @@ layout: default
 title: Home
 ---
 
+<head>
+<link rel="preload" href="/assets/face_on.jpg" as="image">
+<link rel="preload" href="/assets/face_off.jpg" as="image">
+<link rel="preload" href="/assets/SciMode.png" as="image">
+<link rel="preload" href="/assets/ArtMode.png" as="image">
+</head>
+
+<body>
+<div style="display: none;">
+    <img src="/assets/face_off.jpg" alt="Preload Off Mode">
+    <img src="/assets/ArtMode.png" alt="Preload Art Mode">
+</div>
+</body>
+
+
+
 <!--
 <div style="display: flex; align-items: center;">
     <img src="PallabDutta_Photo.jpg" alt="Your Photo" style="width:150px; border-radius: 50%; margin-right: 20px;">
