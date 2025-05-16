@@ -11,7 +11,7 @@ title: Research Blogs
 
 # Research Blogs
 
-<a href="https://pallab-dutta.github.io/EMMD_2020" style="text-decoration: none;">
+<a href="https://pallab-dutta.github.io/EMMD_2020.html" style="text-decoration: none;">
   <div style="
     border: 1px solid #ccc;
     border-radius: 12px;
