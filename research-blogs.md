@@ -12,11 +12,10 @@ title: Research Blogs
 # Research Blogs
 
 <a href="https://pallab-dutta.github.io/EMMD_2020.html" style="text-decoration: none;">
-  <div style="
+<div style="
     border: 1px solid #ccc;
     border-radius: 12px;
     padding: 16px;
-    max-width: 40%;
     display: inline-block;
     text-align: center;
     transition: box-shadow 0.3s;
@@ -26,6 +25,5 @@ title: Research Blogs
     <p style="margin-top: 12px; color: #333; font-size: 16px;">
       Expectation Maximized Molecular Dynamics: A way to compute heights of hills in a free energy landscape without climbing on top of them. 
     </p>
-  </div>
-</a>
+</div></a>
 
