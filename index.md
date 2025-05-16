@@ -126,6 +126,7 @@ title: Home
     border: 2px solid black;
     z-index: 25;
     border-bottom-left-radius: 90px;
+    overflow: hidden;
 }
 
 </style>
