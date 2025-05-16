@@ -89,7 +89,7 @@ title: Home
     border-radius: calc(90vw / 6); /* Half of height to ensure perfect roundness */
     position: relative;
     transition: background 0.5s ease-in-out;
-    z-index: 1
+    z-index: 1;
 }
 
 #toggle-knob {
@@ -105,15 +105,16 @@ title: Home
     box-shadow: inset 0 0 0 3px black;
     transform: translateY(-50%); /* Center vertically */
     transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
-    z-index: 2
+    z-index: 2;
 }
 
 .site-nav input ~ .trigger {
-        clear: both;
-        display: none;
-        position: relative;
-        background-color: white;
-        border: 2px solid black;
+    clear: both;
+    display: none;
+    position: relative;
+    background-color: white;
+    border: 2px solid black;
+    z-index: 25;
 }
 
 </style>
