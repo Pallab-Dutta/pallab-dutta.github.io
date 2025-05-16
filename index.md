@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+id: "home"
 ---
 
 <head>
