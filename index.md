@@ -108,8 +108,12 @@ title: Home
     z-index: 2
 }
 
-.trigger {
-    z-index: 5
+.site-nav input ~ .trigger {
+        clear: both;
+        display: none;
+        position: relative;
+        background-color: white;
+        border: 2px solid black;
 }
 
 </style>
