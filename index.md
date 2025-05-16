@@ -115,6 +115,7 @@ title: Home
     background-color: white;
     border: 2px solid black;
     z-index: 25;
+    border-bottom-left-radius: 90px;
 }
 
 </style>
