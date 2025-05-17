@@ -18,6 +18,7 @@ description: "Personal website of Pallab Dutta"
 # logo: PallabDutta_Photo.jpg
 
 header_pages:
+  - index.md
   - research-blogs.md
   - publications.md
   - puzzles.md
