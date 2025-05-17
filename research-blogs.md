@@ -6,23 +6,19 @@ title: Research Blogs
 # Research Blogs
 
 
-<a href="https://pallab-dutta.github.io/EMMD_2020.html" style="display: inline-block; text-decoration: none;">
-  <div style="
+<div class="clickable-card" onclick="window.location='https://pallab-dutta.github.io/EMMD_2020.html'" style="
     border: 1px solid #ccc;
     border-radius: 12px;
     padding: 16px;
     text-align: center;
-    transition: box-shadow 0.3s;
+    cursor: pointer;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-    cursor: pointer;  /* Add pointer cursor */
-    z-index: 30;
-  ">
-    <img src="assets/EMMD_preview.png" alt="Card Image" style="width: 100%; border-radius: 8px;">
-    <p style="margin-top: 12px; color: #333; font-size: 16px;">
-      Expectation Maximized Molecular Dynamics: A way to compute heights of hills in a free energy landscape without climbing on top of them. 
-    </p>
-  </div>
-</a>
+">
+  <img src="assets/EMMD_preview.png" alt="Card Image" style="width: 100%; border-radius: 8px;">
+  <p style="margin-top: 12px; color: #333; font-size: 16px;">
+    Expectation Maximized Molecular Dynamics...
+  </p>
+</div>
 
 
 <style>
