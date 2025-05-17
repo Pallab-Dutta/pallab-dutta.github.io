@@ -17,20 +17,6 @@ title: Home
 </div>
 </body>
 
-
-
-<!--
-<div style="display: flex; align-items: center;">
-    <img src="PallabDutta_Photo.jpg" alt="Your Photo" style="width:150px; border-radius: 50%; margin-right: 20px;">
-    <div>
-        <p style="text-align: justify;">
-        🙏 Namaskar, this is Pallab Dutta! <br>
-        👀 I’m a research scholar at IISER Kolkata, exploring the interface of computational chemistry and AI. 
-        </p>
-    </div>
-</div>
--->
-
 <div class="toggle-container">
     <div id="toggle-track">
         <div id="toggle-knob"></div>
@@ -38,38 +24,6 @@ title: Home
 </div>
 
 <br/>
-
-<!--
-<style>
-
-.toggle-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
-#toggle-track {
-    width: 300px;
-    height: 100px;
-    background: url('/assets/SciMode.png') center/cover;
-    border-radius: 50px;
-    position: relative;
-    transition: background 0.5s ease-in-out;
-}
-
-#toggle-knob {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background: url('/assets/face_on.jpg') center/cover;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
-}
-
-</style>
--->
 
 <style>
     
@@ -108,26 +62,29 @@ title: Home
     z-index: 2;
 }
 
-.site-nav {
-    position: absolute;
-    top: 9px;
-    right: 15px;
-    background-color: unset;
-    border: unset;
-    border-radius: 5px;
-    text-align: right;
+@media (max-width: 768px) {
+    .site-nav {
+        position: absolute;
+        top: 9px;
+        right: 15px;
+        background-color: unset;
+        border: unset;
+        border-radius: 5px;
+        text-align: right;
+    }
+
+    .site-nav input ~ .trigger {
+        clear: both;
+        display: none;
+        position: relative;
+        background-color: beige;
+        border: 2px solid black;
+        z-index: 25;
+        border-bottom-left-radius: 90px;
+        overflow: hidden;
+    }
 }
 
-.site-nav input ~ .trigger {
-    clear: both;
-    display: none;
-    position: relative;
-    background-color: beige;
-    border: 2px solid black;
-    z-index: 25;
-    border-bottom-left-radius: 90px;
-    overflow: hidden;
-}
 
 </style>
 
