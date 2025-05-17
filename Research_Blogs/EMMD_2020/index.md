@@ -52,7 +52,7 @@ We applied EMMD to three distinct case studies, demonstrating its effectiveness 
 > *Replace the placeholders below with actual figures from your paper.*
 
 **Figure 1:** *Schematic representation of the EMMD algorithm workflow.*
-![Figure 1: EMMD Workflow](path/to/figure1.png)
+![Figure 1: EMMD Workflow](AlaDyPep_FEL.png)
 
 **Figure 2:** *Comparison of FEL estimations between EMMD and traditional methods.*
 ![Figure 2: FEL Comparison](path/to/figure2.png)
