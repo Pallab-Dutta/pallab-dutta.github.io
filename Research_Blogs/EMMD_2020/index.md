@@ -12,6 +12,8 @@ title: EMMD blog
 
 ---
 
+<br>
+
 Imagine, you and your friends plan a summer trek across a mountain that separates two valleys — the East and the West. Half of your group starts from the East valley, and you with the rest start from the West. Right from the beginning, the weather is stormy and cloudy. A thick fog covers the mountain, so dense that you can’t see more than a few steps ahead. You have to depend on an altitude meter to know how high you’ve climbed. As both groups go up, you start feeling very tired halfway through. Climbing becomes harder, not just because of the path, but also because gravity makes it tougher the higher you go. With no clear view and the weather getting worse, both teams decide to go back to their own valleys. Later, using the altitude data from both sides, you try to figure out how tall the mountain is — even though no one actually saw or reached the top.
 
 ![Figure 1: EMMD Workflow](Storyline.png)
@@ -21,6 +23,8 @@ This reflects a common challenge in molecular simulations. The two valleys repre
 To address this challenge, we introduce a novel algorithm — **Expectation Maximized Molecular Dynamics (EMMD)** — that efficiently estimates key features of the FEL without the need for direct sampling of rarely visited high‑energy states.
 
 ---
+
+<br>
 
 ### Methodology
 
@@ -47,6 +51,8 @@ While sampling a metastable state, we keep comparing the $pdf$  corresponding to
 * **Free Energy Estimation:** After performing the necessary and sufficient sampling at each metastable state, we proceed to construct an estimate for the population distribution from the disjoint sample distributions. At this stage, a Gaussian mixture model is fit over the concatenated trajectories collected from all different states. We assume this $pdf$ to be the unbiased Boltzmann distribution of the system. Now, we apply the Boltzmann inversion to have the continuous free energy landscape as a function of the collective variables of the system. 
 
 ---
+
+<br>
 
 ### Key Findings
 
@@ -86,6 +92,8 @@ The result is quite similar to the FEL computed via a standard enhanced sampling
 
 ---
 
+<br>
+
 ### Take Home Summary
 
 * EMMD presents a promising alternative to traditional enhanced sampling techniques, offering a computationally efficient means to estimate complex FELs. 
@@ -99,6 +107,8 @@ The result is quite similar to the FEL computed via a standard enhanced sampling
 * Using the EMMD generated landscape as a biasing potential one can expect to explore the tranision events.
 
 ---
+
+<br>
 
 ### Availability of Paper and Codes
 
