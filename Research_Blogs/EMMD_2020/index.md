@@ -82,8 +82,6 @@ The result is quite similar to the FEL computed via a standard enhanced sampling
 |------------|----------------------|----------------|
 |    ABMD    |          16          |  ~ 1 week      |
 |  Our EMMD  |           6          |  < 10 hours    |
-|            |                      |                |
-
 
 
 ---
