@@ -1,5 +1,13 @@
 <!-- _includes/research-card.html -->
-<div class="clickable-card" onclick="window.location='{{ include.link }}'" style="
+<div class="clickable-card" onclick="window.location='{{ include.link }}'">
+  <img src="{{ include.image | relative_url }}" alt="Card Image" class="card-image">
+  <p class="card-description" style="font-size: {{ include.font_size | default: '16px' }};">
+    {{ include.description }}
+  </p>
+</div>
+
+<style>
+  .clickable-card {
     border: 1px solid #ccc;
     border-radius: 30px;
     padding: 16px;
@@ -10,27 +18,46 @@
     gap: 20px;
     margin-bottom: 20px;
     transition: transform 0.2s, box-shadow 0.2s;
-">
-  <img src="{{ include.image | relative_url }}" alt="Card Image" style="
+  }
+
+  .card-image {
     width: auto;
     height: 150px;
     border-radius: 20px;
     object-fit: cover;
-  ">
-  <p style="
+  }
+
+  .card-description {
     margin: 0;
-    color: #333; 
-    font-size: {{ include.font_size | default: '16px' }};
+    color: #333;
     text-align: left;
     flex: 1;
-  ">
-    {{ include.description }}
-  </p>
-</div>
+  }
 
-<style>
   .clickable-card:hover {
     transform: translateY(-3px);
     box-shadow: 4px 4px 12px rgba(0,0,0,0.15);
+  }
+
+  /* Mobile responsive styles */
+  @media (max-width: 768px) {
+    .clickable-card {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+    }
+
+    .card-image {
+      height: auto;
+      max-height: 200px;
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .card-description {
+      text-align: center;
+      width: 100%;
+    }
   }
 </style>

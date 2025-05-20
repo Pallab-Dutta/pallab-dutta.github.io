@@ -1,0 +1,36 @@
+<!-- _includes/research-card.html -->
+<div class="clickable-card" onclick="window.location='{{ include.link }}'" style="
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+">
+  <img src="{{ include.image | relative_url }}" alt="Card Image" style="
+    width: auto;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+  ">
+  <p style="
+    margin: 0;
+    color: #333; 
+    font-size: {{ include.font_size | default: '16px' }};
+    text-align: left;
+    flex: 1;
+  ">
+    {{ include.description }}
+  </p>
+</div>
+
+<style>
+  .clickable-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.15);
+  }
+</style>
