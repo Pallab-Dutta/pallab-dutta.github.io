@@ -31,9 +31,9 @@ title: Personal Projects
 ## Projects
 
 {% include research-card.html 
-   image="Personal_Projects/KnightMare/CoverPhoto.png"
-   link="https://pallab-dutta.github.io/Personal_Projects/KnightMare"
-   description="Knight-mare: A Telegram-bot that updates you about my research status."
+   image="Personal_Projects/ChaterJee/CoverPhoto.png"
+   link="https://pallab-dutta.github.io/Personal_Projects/ChaterJee"
+   description="ChaterJee: A Telegram-bot to remotely run your computational trial and error."
    font_size='28px'
 %}
 
