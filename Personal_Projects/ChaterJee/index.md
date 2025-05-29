@@ -1,4 +1,16 @@
-# ChaterJee
+---
+layout: default
+title: ChaterJee blog
+---
+
+## ChaterJee: A Telegram-bot to remotely run your computational trial and error.
+
+- **Authors:** Pallab Dutta
+- **GitHub:** https://github.com/Pallab-Dutta/ChaterJee
+
+---
+
+<br>
 
 <img src="https://github.com/Pallab-Dutta/ChaterJee/raw/main/ChaterJee/ProfilePhoto.png" alt="ChaterJee" width="200"/>
 
