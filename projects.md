@@ -37,6 +37,13 @@ title: Personal Projects
    font_size='28px'
 %}
 
+{% include research-card.html
+   image="Personal_Projects/GeoTagMyPic/CoverPhoto.png"
+   link="https://pallab-dutta.github.io/Personal_Projects/GeoTagMyPic"
+   description="GeoTag My Pic: A Telegram-bot to geotag any image."
+   font_size='28px'
+%}
+
 <style>
   .site-footer {
     display: none;
