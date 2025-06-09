@@ -35,7 +35,7 @@ Primarily the quasi-nonergodic behavior appears as a consequence of kinetic trap
 - Oversampling of the metastable basins.
 - Undersampling of the high free-energy regions. 
 
-Herein we borrowed the Expectation Maximization (EM) algorithm from the domain of statistical inference. This soft clustering technique is used to estimate a continuous probability density function ( $pdf$ ) as a mixture of Gaussians from our disjoint samples. This continuous estimate of the $pdf$ is then utilized to solve the above two problems related to sampling.
+Herein we borrowed the Expectation Maximization (EM) algorithm from the domain of statistical inference. This soft clustering technique is used to estimate a continuous probability density function ( $$pdf$$ ) as a mixture of Gaussians from our disjoint samples. This continuous estimate of the $$pdf$$ is then utilized to solve the above two problems related to sampling.
 
 ![Figure 1: Algorithm](Algorithm.png)
 <div style="text-align: justify;">
@@ -46,9 +46,9 @@ Herein we borrowed the Expectation Maximization (EM) algorithm from the domain o
 <br>
 
 * **Necessary and Sufficient Sampling:** 
-While sampling a metastable state, we keep comparing the $pdf$  corresponding to that state at time $t$ and $t+\Delta t$. The simulation at individual basin is ceased when the difference between these two distributions, $pdf_{t}$ and $pdf_{t+\Delta t}$ becomes close to zero. The converged $pdf$ can be considered as the representative of the local state distribution, and the trajectory can be thought of an ensemble of necessary and sufficient amount of samples. 
+While sampling a metastable state, we keep comparing the $$pdf$$  corresponding to that state at time $$t$$ and $$t+\Delta t$$. The simulation at individual basin is ceased when the difference between these two distributions, $$pdf_{t}$$ and $$pdf_{t+\Delta t}$$ becomes close to zero. The converged $$pdf$$ can be considered as the representative of the local state distribution, and the trajectory can be thought of an ensemble of necessary and sufficient amount of samples. 
 
-* **Free Energy Estimation:** After performing the necessary and sufficient sampling at each metastable state, we proceed to construct an estimate for the population distribution from the disjoint sample distributions. At this stage, a Gaussian mixture model is fit over the concatenated trajectories collected from all different states. We assume this $pdf$ to be the unbiased Boltzmann distribution of the system. Now, we apply the Boltzmann inversion to have the continuous free energy landscape as a function of the collective variables of the system. 
+* **Free Energy Estimation:** After performing the necessary and sufficient sampling at each metastable state, we proceed to construct an estimate for the population distribution from the disjoint sample distributions. At this stage, a Gaussian mixture model is fit over the concatenated trajectories collected from all different states. We assume this $$pdf$$ to be the unbiased Boltzmann distribution of the system. Now, we apply the Boltzmann inversion to have the continuous free energy landscape as a function of the collective variables of the system. 
 
 ---
 
@@ -62,7 +62,7 @@ We applied EMMD to three distinct case studies, demonstrating its effectiveness 
 2. Constructing the free energy landscape of Alanine dipeptide.
 3. Understanding the effects of fluorination in proline dipeptide.
 
-We intend to construct the complete FEL of Alanine dipeptide as a function of the Ramachandran dihedrals ($\phi$, $\psi$). A necessary and sufficient ensemble of 1.5 ns is projected over the CV space to depict that all the known minima in the FEL are sampled. 
+We intend to construct the complete FEL of Alanine dipeptide as a function of the Ramachandran dihedrals ($$\phi$$, $$\psi$$). A necessary and sufficient ensemble of 1.5 ns is projected over the CV space to depict that all the known minima in the FEL are sampled. 
 
 ![Figure 2: Alanine Dipeptide Samples](AlaDyPep_Samples.png)
 <div style="text-align: justify;">
