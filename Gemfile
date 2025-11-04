@@ -3,6 +3,9 @@ source "https://rubygems.org"
 # Specify the version of Jekyll you want to use
 gem "jekyll"
 
+# For getting my publications
+gem "jekyll-scholar"
+
 # Add the minima theme (assuming you are using the default theme)
 gem "minima"
 
