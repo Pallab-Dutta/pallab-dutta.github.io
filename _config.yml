@@ -31,7 +31,7 @@ header_pages:
   - arts.md
 
 scholar:
-  style: apa         # Or another style like ieee, harvard-cite-them-right, etc.
+  style: harvard     # Or another style like ieee, harvard-cite-them-right, etc.
   locale: en         # Language for localized terms (e.g., "Eds.")
   source: ./assets # Path where your .bib file(s) are stored (relative to root)
   bibliography: references.bib # Default .bib file name
