@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EMMD blog
+mathjax: true
 ---
 
 ## Membrane to Protein: "All I Need is Your Attention !"
