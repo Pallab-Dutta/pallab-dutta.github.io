@@ -29,16 +29,9 @@ title: Publications
 </style>
 
 <style>
-/* Targets the container for each publication entry */
-/* Use the .csl-entry class, which jekyll-scholar typically assigns */
-.csl-entry {
-    /* Adds a margin of 1.5em (about 1.5 lines) below each entry */
-    margin-bottom: 1.5em; 
-}
-
-/* If the entries are wrapped in <li> tags instead of divs, use this as a fallback: */
-.csl-bibliography li {
-    margin-bottom: 1.5em;
+/* Adjust spacing only for the bibliography section */
+.bibliography li {
+    margin-bottom: 15px; /* Adjust the value as needed */
 }
 </style>
 
