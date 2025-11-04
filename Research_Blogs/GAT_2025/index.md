@@ -55,6 +55,8 @@ To generate our training data, we used fully atomistic molecular dynamics (MD) s
 <b>Figure 2</b> The membrane-embedded fully (FIn) and partially inserted (PIn) states of bacteriorhodopsin. 
 </div>
 
+<br>
+
 #### Input | The Molecular Graph and Features 
 For each embedded peptide conformation, we constructed a residue-level graph (Figure 1) with nodes = residues (center of mass coordinates + physicochemical features: steric parameter,
 polarizability, volume, hydrophobicity, pI, net charge), and edges between residues within vander Waals cutoff. Following the 'N-Cloth' approach, we first set a flat membrane-mesh (Figure 3) primarily considering the mean distances between the two leaflets. Next the membrane leaflets are translated to match the average distance between the protein and lower-leaflet. In cloth simulation research, such initial flat meshes are considered as crucial template to learn a deformation as a function of a given object coordinate. For the learning purpose, the membrane leaflet surface (represented by P atom positions) was grided in the form of 25 x 25 bins. The spatial distance from each of these grid-centers of a flat membrane leaflet to the residues were used as an important feature during the training.
@@ -63,6 +65,8 @@ polarizability, volume, hydrophobicity, pI, net charge), and edges between resid
 <div style="text-align: justify;">
 <b>Figure 3</b> Node features in the molecular graph are derived from the physicochemical and structural properties of each amino acid. The initial flat membrane mesh is positioned based on mean leaflet-leaflet and protein-leaflet distances.
 </div>
+
+<br>
 
 #### Output | The membrane surface geometry
 From the simulations, we constructed our dataset instances. The process for creating a single instance was as follows:
