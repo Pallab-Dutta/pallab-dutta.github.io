@@ -38,6 +38,12 @@ title: Research Blogs
    description="Expectation Maximized Molecular Dynamics: A way to compute heights of hills in a free energy landscape without climbing on top of them."
 %}
 
+{% include research-card.html
+   image="assets/GAT_preview.jpeg"
+   link="https://pallab-dutta.github.io/Research_Blogs/GAT_2025"
+   description="Membrane to Protein: All I Need is Your Attention !"
+%}
+
 
 <style>
   .site-footer {
