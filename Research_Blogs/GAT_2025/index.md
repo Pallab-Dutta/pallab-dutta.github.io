@@ -67,7 +67,7 @@ polarizability, volume, hydrophobicity, pI, net charge), and edges between resid
 #### Output | The membrane surface geometry
 From the simulations, we constructed our dataset instances. The process for creating a single instance was as follows:
 
-- We captured the resulting deformation of each leaflet (both upper and lower) as a 25x25 matrix representing the surface heights of its grids. However, this raw data collection process often resulted in empty grids, leaving gaps in our surface map. To ensure the data was continuous and to provide the model with a complete surface, we applied an Inverse Distance Weighting (IDW) fit over the raw data. This allowed us to fill these gaps. The final, interpolated height values from this process were then used as the ground truth ($Z_{true}$) for training our model.
+- We captured the resulting deformation of each leaflet (both upper and lower) as a 25x25 matrix representing the surface heights of its grids. However, this raw data collection process often resulted in empty grids, leaving gaps in our surface map. To ensure the data was continuous and to provide the model with a complete surface, we applied an Inverse Distance Weighting (IDW) fit over the raw data. This allowed us to fill these gaps. The final, interpolated height values from this process were then used as the ground truth ($$Z_{true}$$) for training our model.
 
 - A single data instance was then created by pairing the molecular graph with its corresponding 25x25 leaflet matrix.
 
@@ -78,11 +78,11 @@ This method was applied to both the upper and lower leaflets, allowing us to bui
 <br>
 
 ### Key Findings
-Using an 80/20 training/validation split, our model achieves strong predictive performance, with $R^2$ scores of 0.8833 (training) and 0.8784 (validation), respectively.A key finding is that while the true leaflet surface exhibits random thermal undulations in addition to the consistent curvature induced by the protein, our model learns to predict only the consistent patterns. It effectively filters out the random fluctuations, resulting in a smoother, averaged surface. 
+Using an 80/20 training/validation split, our model achieves strong predictive performance, with $$R^2$$ scores of 0.8833 (training) and 0.8784 (validation), respectively.A key finding is that while the true leaflet surface exhibits random thermal undulations in addition to the consistent curvature induced by the protein, our model learns to predict only the consistent patterns. It effectively filters out the random fluctuations, resulting in a smoother, averaged surface. 
 
 ![Figure 4: Leaflet geometry true vs pred](Result1.png)
 <div style="text-align: justify;">
-<b>Figure 4</b> Top row corresponds to FIn states while the bottom row is for PIn states. First column refers to the true values of leaflet geometry ($Z_{true}$) and the second row refers to the predicted values for the same. 
+<b>Figure 4</b> Top row corresponds to FIn states while the bottom row is for PIn states. First column refers to the true values of leaflet geometry ($$Z_{true}$$) and the second row refers to the predicted values for the same. 
 </div>
 
 <br>
@@ -105,7 +105,7 @@ These state-specific findings are consistent with the curvature calculations fro
 
 * Due to its graph based architecture, training this model for a general membrane-embedded protein should be straightforward. 
 
-* The model reaches $\sim 88\%$ accuracy in terms of $R^2$. 
+* The model reaches $$\sim 88\%$$ accuracy in terms of $$R^2$$. 
 
 * We benchmarked the predicted surface deformations with our previous curvature calculations. Moreover, we predict the leaflet deformation for an intermediate peptide structure not present in the training dataset (Read the [original paper](https://doi.org/10.1063/5.0250082)). 
 
