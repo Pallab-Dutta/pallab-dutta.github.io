@@ -45,7 +45,6 @@ Inspired by this, I built a model using a Graph Attention Network (GAT). Our GAT
 </div>
 
 <br>
-<br>
 
 ### Dataset
 To generate our training data, we used fully atomistic molecular dynamics (MD) simulations from a [previous study](https://doi.org/10.1016/j.bbamem.2024.184333) in our group. The system we studied was the catalytic fragment of bacteriorhodopsin, which has two distinct states: one partially inserted (PIn) and one fully inserted (FIn) into the membrane (Figure 2).
@@ -89,7 +88,6 @@ Using an 80/20 training/validation split, our model achieves strong predictive p
 <b>Figure 4</b> Top row corresponds to FIn states while the bottom row is for PIn states. First column refers to the true values of leaflet geometry and the second row refers to the predicted values for the same. 
 </div>
 
-<br>
 <br>
 
 Despite this averaging, the model accurately captures the specific, state-dependent deformations.
