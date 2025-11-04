@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: default
+title: GAT Blog
 ---
 
 ## Membrane to Protein: "All I Need is Your Attention !"
