@@ -29,25 +29,21 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.4.7' # Use a modern Ruby version
+          bundler-cache: true # Automatically runs 'bundle install'
       
-      - name: Install dependencies
-        run: |
-                gem install bundler
-                bundle install
-      
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-
-      - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
-
-      - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
+      # The main Jekyll build step
+      - name: Build Jekyll Site ⚙️
+        # This action uses the installed gems to build the site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+          
+      - name: Upload artifact for deployment 📦
+        # Uploads the built _site directory for the deployment job
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: './_site'
 
   # The deployment job
   deploy:
