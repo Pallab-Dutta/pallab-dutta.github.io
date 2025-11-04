@@ -28,7 +28,7 @@ jobs:
         # Installs Ruby and ensures Bundler is available
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x' # Use a modern Ruby version
+          ruby-version: '3.4.7' # Use a modern Ruby version
           bundler-cache: true # Automatically runs 'bundle install'
       
       # The main Jekyll build step
