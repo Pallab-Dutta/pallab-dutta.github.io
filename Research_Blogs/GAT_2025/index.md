@@ -1,6 +1,6 @@
 ---
-layout: default
-title: EMMD blog
+layout: post
+title: GAT blog
 mathjax: true
 ---
 
