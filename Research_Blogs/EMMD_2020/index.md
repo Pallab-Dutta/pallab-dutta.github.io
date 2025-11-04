@@ -28,8 +28,7 @@ To address this challenge, we introduce a novel algorithm — **Expectation Maxi
 
 ### Methodology
 
-Herein, we want to solve this problem 
-Fully atomistic MD simulation is performed independently for known metastable conformations of the system. This generates disjoint samples separated by high kinetic barriers over the free energy landscape. 
+Herein, we want to solve this problem. Fully atomistic MD simulation is performed independently for known metastable conformations of the system. This generates disjoint samples separated by high kinetic barriers over the free energy landscape. 
 
 Primarily the quasi-nonergodic behavior appears as a consequence of kinetic trapping inside the metastable basins, which leads to:
 - Oversampling of the metastable basins.

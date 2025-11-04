@@ -13,7 +13,7 @@ title: EMMD blog
 ---
 
 <br>
-Imagine playing a guessing game. A friend has a small collection of objects — say, an apple, a coffee mug, and a little toy rhino. They take one, hide it under a flexible tablecloth, and your job is to guess what it is, relying only on the impression you see on the fabric. You might easily guess the keys or the mug. But what about the rhino?
+Imagine playing a guessing game. A friend has a small collection of objects — say, an apple, a coffee mug, and a little toy rhino. They take one, hide it under a flexible tablecloth, and your job is to guess what it is, relying only on the impression you see on the fabric. You might easily guess the apple or the mug. But what about the rhino?
 
 This is where the game gets fascinating. If your friend places the toy rhino standing up on its feet, it creates one distinct pattern of bumps. But if they lay that same rhino on its side, it creates a completely different, longer, lumpier impression.
 
