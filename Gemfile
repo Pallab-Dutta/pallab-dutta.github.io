@@ -3,14 +3,13 @@ source "https://rubygems.org"
 # Specify the version of Jekyll you want to use
 gem "jekyll"
 
-# For getting my publications
-gem "jekyll-scholar"
-
 # Add the minima theme (assuming you are using the default theme)
 gem "minima"
 
 # If you need to use the jekyll-feed, jekyll-sitemap, or jekyll-seo-tag gems
 group :jekyll_plugins do
+  gem "jekyll-scholar"
+  gem "jekyll-relative-links"
   gem "jekyll-feed"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
