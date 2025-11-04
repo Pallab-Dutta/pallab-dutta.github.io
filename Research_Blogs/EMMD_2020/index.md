@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EMMD blog
+usemathjax: true
 ---
 
 ## Expectation Maximized Molecular Dynamics: A New Frontier in Free Energy Barrier Estimation
