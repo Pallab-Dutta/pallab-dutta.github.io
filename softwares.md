@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Personal Projects
+title: Softwares
 ---
 
 <style>
