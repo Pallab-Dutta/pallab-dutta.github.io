@@ -47,7 +47,7 @@ title: Softwares
 {% include research-card.html
    image="Softwares/SciCo_author/CoverPhoto.png"
    link="https://pallab-dutta.github.io/Softwares/SciCo_author"
-   description="$\\text{SciCo}_{\\text{author}}^{[1-3,\\checkmark]}$: An AI Scientist Co-author for the Thesis Marathon."
+   description="SciCo-author: An AI Scientist Co-author for the Thesis Marathon."
    font_size='28px'
 %}
 
