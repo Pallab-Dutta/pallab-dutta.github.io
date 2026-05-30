@@ -93,10 +93,19 @@ title: Home
 
 <br/>
 
-Currently, I am a final year PhD student under Prof. Neelanjana Sengupta at IISER Kolkata. I am working at the interface of molecular simulations and machine learning to understand the dynamics of biomolecular systems in greater detail. Some of my current research topics are:
+## As an academic researcher
+I have recently defended my PhD Viva Voce under Prof. Neelanjana Sengupta at IISER Kolkata. I am working at the interface of molecular simulations and machine learning to understand the structural transitions of biomolecular systems in greater detail. Some of my current research topics are:
 - Estimation of kinetic barriers and learning transition states without directly sampling the transition event [[1](https://doi.org/10.1002/cphc.202200595),[2](https://doi.org/10.1016/j.bpj.2023.02.010)].
 - Learning membrane surface topology as a function of the embedded peptide and its conformation [[3](https://doi.org/10.1063/5.0250082)]. 
 - Solving the mystery of having structural conservation with sequence dissimilarities in Kinases and other enzymes, using explainable AI.  
+
+<br/>
+
+## As a solo developer
+During my academic journey at IISER, I've loved turning frustrating research bottlenecks into an excuse to build some cool tools.
+- Tiring of the endless trial-and-error in tuning MD simulation parameters and ML hyperparameters, I had fun building [Chatterjee](https://github.com/Pallab-Dutta/ChaterJee), a Telegram bot that lets you control computational runs right from your smartphone.
+- Writing my thesis made me realize how tedious it is to adapt publications into full-length thesis chapters, so I thoroughly enjoyed creating [SciCoauthor](https://github.com/Pallab-Dutta/SciCo_Author), an adaptive RAG framework that actually automates chapter writing via a growing knowledge-ledger. Additionally, I built [SciCoproofread](https://scico-proofread.streamlit.app/) to handle heavy, long-context LaTeX proofreading.
+- Finally, to make exploring unfamiliar academic territories exciting rather than exhausting, I developed [SciCosearch](https://scico-search.streamlit.app/), a semantic search engine that speeds up research-paper and potential PI discovery for students.
 
 <br/>
 
