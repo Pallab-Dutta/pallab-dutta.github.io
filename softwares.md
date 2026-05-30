@@ -31,15 +31,15 @@ title: Softwares
 ## Projects
 
 {% include research-card.html 
-   image="Personal_Projects/ChaterJee/CoverPhoto.png"
-   link="https://pallab-dutta.github.io/Personal_Projects/ChaterJee"
+   image="Softwares/ChaterJee/CoverPhoto.png"
+   link="https://pallab-dutta.github.io/Softwares/ChaterJee"
    description="ChaterJee: A Telegram-bot to remotely run your computational trial and error."
    font_size='28px'
 %}
 
 {% include research-card.html
-   image="Personal_Projects/GeoTagMyPic/CoverPhoto.png"
-   link="https://pallab-dutta.github.io/Personal_Projects/GeoTagMyPic"
+   image="Softwares/GeoTagMyPic/CoverPhoto.png"
+   link="https://pallab-dutta.github.io/Softwares/GeoTagMyPic"
    description="GeoTag My Pic: A Telegram-bot to geotag any image."
    font_size='28px'
 %}
