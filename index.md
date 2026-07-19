@@ -104,7 +104,7 @@ I have recently defended my PhD Viva Voce under Prof. Neelanjana Sengupta at IIS
 ## As a solo developer
 During my academic journey at IISER, I've loved turning frustrating research bottlenecks into an excuse to build some cool tools.
 - Tiring of the endless trial-and-error in tuning MD simulation parameters and ML hyperparameters, I had fun building [Chatterjee](https://github.com/Pallab-Dutta/ChaterJee), a Telegram bot that lets you control computational runs right from your smartphone.
-- Writing my thesis made me realize how tedious it is to adapt publications into full-length thesis chapters, so I thoroughly enjoyed creating [SciCo-author](https://github.com/Pallab-Dutta/SciCo_Author), an adaptive RAG framework that actually automates chapter writing via a growing knowledge-ledger. Additionally, I built [SciCoproofread](https://scico-proofread.streamlit.app/) to handle heavy, long-context LaTeX proofreading.
+- Writing my thesis made me realize how tedious it is to adapt publications into full-length thesis chapters, so I thoroughly enjoyed creating [SciCo-author](https://github.com/Pallab-Dutta/SciCo_Author), an adaptive RAG framework that actually automates chapter writing via a growing knowledge-ledger. Additionally, I built [Benjamin](https://benjamin.scicoagent.com), an AI scientist-proofreader that reads the science in your LaTeX, the equations, units and notation, not just the spelling.
 - Finally, to make exploring unfamiliar academic territories exciting rather than exhausting, I developed [SciCosearch](https://scico-search.streamlit.app/), a semantic search engine that speeds up research-paper and potential PI discovery for students.
 
 <br/>

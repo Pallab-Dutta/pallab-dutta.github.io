@@ -30,6 +30,13 @@ title: Softwares
 
 ## Projects
 
+{% include research-card.html
+   image="Softwares/Benjamin/CoverPhoto.png"
+   link="https://pallab-dutta.github.io/Softwares/Benjamin"
+   description="Benjamin: An AI scientist-proofreader that reads your LaTeX equations, units and notation, not just your grammar."
+   font_size='28px'
+%}
+
 {% include research-card.html 
    image="Softwares/ChaterJee/CoverPhoto.png"
    link="https://pallab-dutta.github.io/Softwares/ChaterJee"
