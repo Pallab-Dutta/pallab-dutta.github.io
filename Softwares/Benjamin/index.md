@@ -3,17 +3,22 @@ layout: default
 title: Benjamin
 ---
 
+<p align="center">
+  <img src="/Softwares/Benjamin/CoverPhoto.svg" alt="Benjamin logo" width="340">
+</p>
+
 ## Benjamin: An AI Scientist and Proofreader for LaTeX
 
 - **Author:** Pallab Dutta
 - **Try it:** [benjamin.scicoagent.com](https://benjamin.scicoagent.com)
+- **The story:** [Why I built Benjamin](https://scicoagent.com/blog/posts/why-benjamin/)
 - **Learn more:** [scicoagent.com/blog](https://scicoagent.com/blog/)
 
 ---
 
 <br>
 
-Somewhere around two in the morning, after reading your own paper so many times that your eyes stop landing on the words, you run it through a grammar checker, watch the last underline disappear, and submit. Three weeks later a reviewer circles Equation 7. Every tool you own had let it through, because none of them were reading the science. They were reading the spelling. That gap is why I built Benjamin, an AI scientist-proofreader made for LaTeX by someone who has been on the wrong end of that reviewer note.
+Somewhere around two in the morning, after reading your own paper so many times that your eyes stop landing on the words, you run it through a grammar checker, watch the last underline disappear, and submit. Three weeks later a reviewer circles Equation 7. Every tool you own had let it through, because none of them were reading the science. They were reading the spelling. That gap is why I built Benjamin, an AI scientist-proofreader made for LaTeX by someone who has been on the wrong end of that reviewer note. I wrote the [full story of why Benjamin exists](https://scicoagent.com/blog/posts/why-benjamin/) on the blog.
 
 A LaTeX manuscript is really three documents stacked together: the prose, the code, and the mathematics. Generic grammar tools only read the first layer. The "LaTeX-safe" tools do better on the code, but they stay safe by leaving your equations untouched, which is a polite way of saying they never check them. Benjamin reads all three. It keeps your `.tex` intact and compiling, proofreads the prose in context, and then keeps going into the layer the others step around: a summation that double counts, a wrong exponent, a diffusion coefficient with the units of a velocity, a symbol that quietly changes meaning halfway through the paper.
 
